@@ -1,0 +1,49 @@
+h2 {
+  color: #e5e5e5;
+  font-weight: 700;
+  font-size: 17px;
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  padding-top: 37px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.row_poster {
+  object-fit: contain;
+  width: 500px;
+  max-height: 330px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+.row_poster_vid {
+  z-index: 3;
+  padding-left: 30%;
+  object-fit: contain;
+  width: 500px;
+  max-height: 330px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+.row_posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.row_poster:hover {
+  transform: scale(1.10);
+  cursor:pointer;
+  /* padding:30px; */
+}
+.row_posterLarge {
+  max-height: 550px;
+  width: 350px;
+}
+/* .row_posterLarge:hover {
+  transform: scale(1.09);
+} */
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
